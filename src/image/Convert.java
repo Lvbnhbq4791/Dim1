@@ -41,7 +41,7 @@ public class Convert implements TexConver {
             }
             this.schema = schema;
         }catch (ArrayIndexOutOfBoundsException ignored){
-            System.out.println("Отсутствует логика в конвекторе schema");
+            System.out.println("Ошибка2 отсутствует логики в конвекторе schema");
         }
     }
 }
