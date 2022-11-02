@@ -35,7 +35,7 @@ public class Convert implements TexConver {
                 int g = u / 32;
                 if (sim[g] != r) {
                     this.schema = null;
-                    System.out.println("Ошибка логики в конвекторе schema");
+                    System.out.println("Ошибка1 логики в конвекторе schema");
                     return;
                 }
             }
