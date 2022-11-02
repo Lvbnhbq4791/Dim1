@@ -38,6 +38,7 @@ public class Main {
         }
         textSimvol = sb.toString();
         System.out.println(textSimvol);
+        System.out.println("Состояние");
     }
 }
 
